@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/actionbar_height">
+
+    <TextView
+        style="@style/CmdText"
+        android:text="@string/version"/>
+
+    <TextView
+        style="@style/DescText"
+        android:text="@string/about_info"
+        android:autoLink="all" />
+
+    <TextView
+        style="@style/CmdText"
+        android:text="@string/credit"
+        android:layout_marginTop="@dimen/padding16"/>
+
+    <TextView
+        style="@style/DescText"
+        android:text="@string/credit_info"
+        android:autoLink="all"/>
+
+</LinearLayout>

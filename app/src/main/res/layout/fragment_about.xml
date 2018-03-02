@@ -11,8 +11,9 @@
 
     <TextView
         style="@style/DescText"
-        android:text="@string/about_info"
-        android:autoLink="all" />
+        android:text="Your Success is Our Goal!"
+        android:autoLink="all"/>
+       
 
     <TextView
         style="@style/CmdText"

@@ -26,10 +26,13 @@
 
     <style name="TitleText" parent="Text">
         <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
 
     <style name="DescText" parent="Text">
         <item name="android:textSize">@dimen/text_desc</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/grey</item>
     </style>
 
     <style name="CmdText">
